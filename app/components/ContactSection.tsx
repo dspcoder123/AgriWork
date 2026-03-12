@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import { Mail, Phone, MapPin, ArrowRight, ExternalLink, CheckCircle2, Send, Globe2, Loader2 } from 'lucide-react';
+import { Mail, Phone, MapPin, CheckCircle2, Send, Loader2 } from 'lucide-react';
 
 export default function ContactSection() {
     const [isSubmitted, setIsSubmitted] = useState(false);
@@ -15,8 +15,6 @@ export default function ContactSection() {
         setError(null);
 
         const formData = new FormData(event.currentTarget);
-
-        // Add your Web3Forms Access Key here
         formData.append("access_key", "d5bf9dd0-1f44-499f-80a3-bf419c4a4ff2");
         formData.append("subject", "New Contact Inquiry from Agriworks Portfolio");
         formData.append("to_email", "dspcoder123@gmail.com");
@@ -26,9 +24,7 @@ export default function ContactSection() {
                 method: "POST",
                 body: formData
             });
-
             const data = await response.json();
-
             if (data.success) {
                 setIsSubmitted(true);
             } else {
@@ -42,10 +38,10 @@ export default function ContactSection() {
     }
 
     return (
-        <section style={{ padding: '140px 10%', background: '#fff', position: 'relative', overflow: 'hidden' }}>
+        <section className="contact-section" style={{ padding: '140px 10%', background: '#fff', position: 'relative', overflow: 'hidden' }}>
             <div style={{ position: 'absolute', top: '-10%', right: '-5%', width: '40%', height: '60%', background: 'rgba(212, 175, 55, 0.03)', borderRadius: '50%', filter: 'blur(100px)', zIndex: 0 }} />
 
-            <div style={{
+            <div className="contact-grid" style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))',
                 gap: '6rem',
@@ -55,12 +51,13 @@ export default function ContactSection() {
                 position: 'relative',
                 zIndex: 1
             }}>
-                {/* Simplified Professional Form */}
+                {/* Form Panel */}
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     viewport={{ once: true }}
+                    className="contact-form-panel"
                     style={{
                         background: '#0d2a1a',
                         padding: '5rem',
@@ -82,54 +79,46 @@ export default function ContactSection() {
                             >
                                 <div style={{ marginBottom: '3.5rem' }}>
                                     <span style={{ fontSize: '0.85rem', color: 'var(--accent)', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '4px' }}>Get in Touch</span>
-                                    <h2 style={{ fontSize: '3.2rem', color: '#fff', fontFamily: 'var(--font-serif)', marginTop: '0.5rem', fontWeight: 900 }}>Let's Connect</h2>
+                                    <h2 className="contact-form-heading" style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', color: '#fff', fontFamily: 'var(--font-serif)', marginTop: '0.5rem', fontWeight: 900 }}>Let's Connect</h2>
                                 </div>
 
                                 <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1.5rem' }}>
                                     <div className="input-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                                        <div className="input-group">
-                                            <input
-                                                required
-                                                name="name"
-                                                type="text"
-                                                placeholder="Full Name"
-                                                style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none' }}
-                                                className="agri-input"
-                                            />
-                                        </div>
-                                        <div className="input-group">
-                                            <input
-                                                required
-                                                name="email"
-                                                type="email"
-                                                placeholder="Email Address"
-                                                style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none' }}
-                                                className="agri-input"
-                                            />
-                                        </div>
-                                    </div>
-
-                                    <div className="input-group">
                                         <input
                                             required
-                                            name="phone"
-                                            type="tel"
-                                            placeholder="Phone Number"
-                                            style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none' }}
+                                            name="name"
+                                            type="text"
+                                            placeholder="Full Name"
+                                            style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none', boxSizing: 'border-box' }}
+                                            className="agri-input"
+                                        />
+                                        <input
+                                            required
+                                            name="email"
+                                            type="email"
+                                            placeholder="Email Address"
+                                            style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none', boxSizing: 'border-box' }}
                                             className="agri-input"
                                         />
                                     </div>
 
-                                    <div className="input-group">
-                                        <textarea
-                                            required
-                                            name="message"
-                                            rows={4}
-                                            placeholder="Your Message..."
-                                            style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none', resize: 'none' }}
-                                            className="agri-input"
-                                        />
-                                    </div>
+                                    <input
+                                        required
+                                        name="phone"
+                                        type="tel"
+                                        placeholder="Phone Number"
+                                        style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none', boxSizing: 'border-box' }}
+                                        className="agri-input"
+                                    />
+
+                                    <textarea
+                                        required
+                                        name="message"
+                                        rows={4}
+                                        placeholder="Your Message..."
+                                        style={{ width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)', padding: '1.2rem', borderRadius: '12px', fontSize: '1rem', color: '#fff', outline: 'none', resize: 'none', boxSizing: 'border-box' }}
+                                        className="agri-input"
+                                    />
 
                                     {error && <div style={{ color: '#ff4d4d', fontSize: '0.9rem', fontWeight: 600 }}>{error}</div>}
 
@@ -169,7 +158,7 @@ export default function ContactSection() {
                                 <div style={{ width: '80px', height: '80px', background: 'var(--accent)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 2rem', color: 'var(--primary)' }}>
                                     <CheckCircle2 size={40} />
                                 </div>
-                                <h2 style={{ color: '#fff', fontSize: '2.5rem', marginBottom: '1rem', fontWeight: 900 }}>Message Sent!</h2>
+                                <h2 style={{ color: '#fff', fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '1rem', fontWeight: 900 }}>Message Sent!</h2>
                                 <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', lineHeight: 1.6 }}>We have received your inquiry. <br />An expert will contact you shortly.</p>
                                 <button
                                     onClick={() => setIsSubmitted(false)}
@@ -182,55 +171,58 @@ export default function ContactSection() {
                     </AnimatePresence>
                 </motion.div>
 
-                {/* Info Side */}
+                {/* Info Panel */}
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     viewport={{ once: true }}
+                    className="contact-info-panel"
                 >
                     <div style={{ marginBottom: '4rem' }}>
                         <span style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '5px' }}>Contact Details</span>
-                        <h2 style={{ fontSize: '4rem', marginTop: '1rem', color: '#1e293b', fontFamily: 'var(--font-serif)', lineHeight: 1.1, fontWeight: 900 }}>Reach Us <br />Directly</h2>
+                        <h2 className="contact-info-heading" style={{ fontSize: 'clamp(2.2rem, 5vw, 4rem)', marginTop: '1rem', color: '#1e293b', fontFamily: 'var(--font-serif)', lineHeight: 1.1, fontWeight: 900 }}>
+                            Reach Us <br />Directly
+                        </h2>
                     </div>
 
                     <div style={{ display: 'grid', gap: '3rem' }}>
-                        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                            <div style={{ width: '60px', height: '60px', background: '#f1f5f9', borderRadius: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--primary)', flexShrink: 0 }}>
-                                <MapPin size={28} />
+                        {[
+                            {
+                                icon: <MapPin size={28} />,
+                                title: 'Address',
+                                content: 'H.No. 4-5-86, Srinivasa Homes Apts, Door No. A-401, 4th Floor, Bandari Layout, Hyderabad – 500325'
+                            },
+                            {
+                                icon: <Phone size={28} />,
+                                title: 'Call Us',
+                                content: '+91 97072 03337',
+                                highlight: true
+                            },
+                            {
+                                icon: <Mail size={28} />,
+                                title: 'Email Us',
+                                content: 'agriworkinc@gmail.com',
+                                highlight: true
+                            }
+                        ].map((item, i) => (
+                            <div key={i} style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
+                                <div style={{ width: '60px', height: '60px', background: '#f1f5f9', borderRadius: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--primary)', flexShrink: 0 }}>
+                                    {item.icon}
+                                </div>
+                                <div>
+                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 900, marginBottom: '0.5rem', color: '#1e293b' }}>{item.title}</h4>
+                                    <p style={{ fontSize: item.highlight ? '1.1rem' : '1.05rem', color: item.highlight ? 'var(--primary)' : '#64748b', fontWeight: item.highlight ? 700 : 400, lineHeight: 1.6 }}>
+                                        {item.content}
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 style={{ fontSize: '1.2rem', fontWeight: 900, marginBottom: '0.5rem', color: '#1e293b' }}>Address</h4>
-                                <p style={{ fontSize: '1.05rem', color: '#64748b', lineHeight: 1.6 }}>
-                                    H.No. 4-5-86, Srinivasa Homes Apts, Door No. A-401, 4th Floor, Bandari Layout, Hyderabad – 500325
-                                </p>
-                            </div>
-                        </div>
-
-                        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                            <div style={{ width: '60px', height: '60px', background: '#f1f5f9', borderRadius: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--primary)', flexShrink: 0 }}>
-                                <Phone size={28} />
-                            </div>
-                            <div>
-                                <h4 style={{ fontSize: '1.2rem', fontWeight: 900, marginBottom: '0.5rem', color: '#1e293b' }}>Call Us</h4>
-                                <p style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--primary)' }}>+91 97072 03337</p>
-                            </div>
-                        </div>
-
-                        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                            <div style={{ width: '60px', height: '60px', background: '#f1f5f9', borderRadius: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--primary)', flexShrink: 0 }}>
-                                <Mail size={28} />
-                            </div>
-                            <div>
-                                <h4 style={{ fontSize: '1.2rem', fontWeight: 900, marginBottom: '0.5rem', color: '#1e293b' }}>Email Us</h4>
-                                <p style={{ fontSize: '1.1rem', color: 'var(--primary)', fontWeight: 700 }}>agriworkinc@gmail.com</p>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </motion.div>
             </div>
 
-            <style jsx>{`
+            <style>{`
                 .agri-input:focus {
                     background: rgba(255,255,255,0.1) !important;
                     border-color: var(--accent) !important;
@@ -242,6 +234,62 @@ export default function ContactSection() {
                 }
                 .spin { animation: spin 1s linear infinite; }
                 @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+                /* ── TABLET (≤1024px) ── */
+                @media (max-width: 1024px) {
+                    .contact-section {
+                        padding: 100px 6% !important;
+                    }
+                    .contact-grid {
+                        grid-template-columns: 1fr !important;
+                        gap: 4rem !important;
+                    }
+                    .contact-form-panel {
+                        padding: 4rem 3.5rem !important;
+                        border-radius: 32px !important;
+                        min-height: auto !important;
+                    }
+                    .contact-info-panel {
+                        order: -1;
+                    }
+                }
+
+                /* ── MOBILE (≤768px) ── */
+                @media (max-width: 768px) {
+                    .contact-section {
+                        padding: 70px 5% !important;
+                    }
+                    .contact-grid {
+                        gap: 3rem !important;
+                    }
+                    .contact-form-panel {
+                        padding: 3rem 2rem !important;
+                        border-radius: 24px !important;
+                    }
+                    .contact-info-panel > div:first-child {
+                        margin-bottom: 2.5rem !important;
+                    }
+                    .contact-info-heading br {
+                        display: none;
+                    }
+                    .input-row {
+                        grid-template-columns: 1fr !important;
+                    }
+                }
+
+                /* ── SMALL MOBILE (≤480px) ── */
+                @media (max-width: 480px) {
+                    .contact-section {
+                        padding: 50px 4% !important;
+                    }
+                    .contact-form-panel {
+                        padding: 2.5rem 1.5rem !important;
+                        border-radius: 20px !important;
+                    }
+                    .contact-grid {
+                        gap: 2.5rem !important;
+                    }
+                }
             `}</style>
         </section>
     );

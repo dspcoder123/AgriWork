@@ -104,4 +104,4 @@ export default function ProductsHeader() {
             </motion.div>
         </section>
     );
-}
+}   

@@ -44,29 +44,30 @@ export default function ProductShowcase() {
     }, [isHovered]);
 
     return (
-        <section style={{ padding: '100px 0', paddingRight: 0, position: 'relative', overflow: 'hidden', backgroundColor: 'var(--bg-white)' }}>
-            <div style={{ textAlign: 'center', marginBottom: '4rem', padding: '0 10%' }}>
-                <span style={{ fontSize: '0.9rem', color: 'var(--accent)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '3px' }}>Market Specific</span>
-                <h2 style={{ fontSize: '3rem', marginTop: '1rem', lineHeight: 1.1 }}>Top Ranking Varieties</h2>
-                <div className="title-underline" style={{ margin: '1.5rem auto' }} />
-                <p style={{ opacity: 0.7, maxWidth: '600px', margin: '0 auto' }}>
+        <section style={{ padding: 'clamp(50px, 10vw, 100px) 0', position: 'relative', overflow: 'hidden', backgroundColor: 'var(--bg-white)' }}>
+            <div style={{ textAlign: 'center', marginBottom: 'clamp(2rem, 5vw, 4rem)', padding: '0 5%' }}>
+                <span style={{ fontSize: '0.8rem', color: 'var(--accent)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '3px' }}>Market Specific</span>
+                <h2 style={{ fontSize: 'clamp(2rem, 6vw, 3rem)', marginTop: '0.5rem', lineHeight: 1.1 }}>Top Ranking Varieties</h2>
+                <div className="title-underline" style={{ margin: '1rem auto' }} />
+                <p style={{ opacity: 0.7, maxWidth: '600px', margin: '1rem auto', fontSize: 'clamp(0.9rem, 3vw, 1rem)' }}>
                     Varieties developed for maximum profitability and performance across different agroclimatic conditions.
                 </p>
             </div>
 
             {/* BOUNDED BOX CONTAINER */}
-            <div style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', overflow: 'hidden', padding: '0 2rem' }}>
+            <div style={{ maxWidth: '1400px', margin: '0 auto', position: 'relative', overflow: 'hidden', padding: '0 5%' }}>
                 <div
                     ref={containerRef}
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                     style={{
                         display: 'flex',
-                        gap: '1.5rem',
+                        gap: '1.25rem',
                         overflowX: 'auto',
                         padding: '1rem 0 2rem',
                         scrollbarWidth: 'none',
-                        msOverflowStyle: 'none'
+                        msOverflowStyle: 'none',
+                        scrollSnapType: 'x mandatory'
                     }}
                     className="product-scroll"
                 >
@@ -76,13 +77,14 @@ export default function ProductShowcase() {
                             whileHover={{ y: -8 }}
                             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                             style={{
-                                minWidth: '220px',
-                                height: '320px',
+                                minWidth: 'clamp(240px, 70vw, 300px)',
+                                height: 'clamp(320px, 50vh, 400px)',
                                 flexShrink: 0,
                                 position: 'relative',
-                                borderRadius: '12px',
+                                borderRadius: '20px',
                                 overflow: 'hidden',
-                                boxShadow: '0 8px 24px rgba(0,0,0,0.05)'
+                                boxShadow: '0 15px 35px rgba(0,0,0,0.08)',
+                                scrollSnapAlign: 'start'
                             }}
                         >
                             <img
@@ -97,13 +99,13 @@ export default function ProductShowcase() {
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'flex-end',
-                                padding: '1.25rem',
+                                padding: '1.5rem',
                                 color: '#fff'
                             }}>
-                                <span style={{ fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '2px', color: 'var(--accent)', fontWeight: 700, marginBottom: '0.2rem' }}>
+                                <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '2px', color: 'var(--accent)', fontWeight: 700, marginBottom: '0.4rem' }}>
                                     {product.category}
                                 </span>
-                                <h3 style={{ fontSize: '1.1rem', margin: 0, fontFamily: 'var(--font-serif)', lineHeight: 1.3 }}>
+                                <h3 style={{ fontSize: 'clamp(1.1rem, 4vw, 1.4rem)', margin: 0, fontFamily: 'var(--font-serif)', lineHeight: 1.3 }}>
                                     {product.name}
                                 </h3>
                             </div>
@@ -112,13 +114,14 @@ export default function ProductShowcase() {
                 </div>
             </div>
 
-            {/* CENTERED BUTTONS */}
-            <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', marginTop: '3rem' }}>
+            {/* NAVIGATION BUTTONS */}
+            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
                 <button
                     onClick={() => scroll('left')}
+                    className="slider-nav-btn"
                     style={{
-                        width: '45px',
-                        height: '45px',
+                        width: '50px',
+                        height: '50px',
                         borderRadius: '50%',
                         border: '1px solid rgba(0,0,0,0.1)',
                         display: 'flex',
@@ -128,15 +131,15 @@ export default function ProductShowcase() {
                         cursor: 'pointer',
                         background: '#fff'
                     }}
-                    className="slider-nav-btn"
                 >
-                    <ChevronLeft size={18} />
+                    <ChevronLeft size={20} />
                 </button>
                 <button
                     onClick={() => scroll('right')}
+                    className="slider-nav-btn active"
                     style={{
-                        width: '45px',
-                        height: '45px',
+                        width: '50px',
+                        height: '50px',
                         borderRadius: '50%',
                         background: 'var(--primary)',
                         color: '#fff',
@@ -146,9 +149,8 @@ export default function ProductShowcase() {
                         transition: 'all 0.3s ease',
                         cursor: 'pointer'
                     }}
-                    className="slider-nav-btn active"
                 >
-                    <ChevronRight size={18} />
+                    <ChevronRight size={20} />
                 </button>
             </div>
 
@@ -164,6 +166,12 @@ export default function ProductShowcase() {
                 .slider-nav-btn.active:hover {
                     background: var(--accent);
                     color: var(--primary);
+                }
+                @media (max-width: 768px) {
+                    .slider-nav-btn {
+                        width: 40px !important;
+                        height: 40px !important;
+                    }
                 }
             `}</style>
         </section>

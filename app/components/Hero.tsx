@@ -78,28 +78,15 @@ export default function Hero() {
                     transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                     style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
                 >
-                    {/* ELEVATED TAGLINE BADGE */}
+                    {/* TAGLINE BADGE — mobile fixed */}
                     <motion.div
-                        style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '15px',
-                            padding: '0.8rem 2rem',
-                            background: 'rgba(255, 255, 255, 0.03)',
-                            backdropFilter: 'blur(12px)',
-                            borderRadius: '100px',
-                            border: '1px solid rgba(255, 255, 255, 0.15)',
-                            marginBottom: '2.5rem',
-                            boxShadow: '0 8px 32px rgba(0,0,0,0.2)',
-                            position: 'relative',
-                            overflow: 'hidden'
-                        }}
+                        className="hero-badge"
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.4, duration: 1 }}
                     >
                         {/* Animated Pulse Dot */}
-                        <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+                        <div style={{ position: 'relative', display: 'flex', alignItems: 'center', flexShrink: 0 }}>
                             <div style={{ width: '10px', height: '10px', borderRadius: '50%', background: 'var(--accent)', zIndex: 2 }} />
                             <motion.div
                                 animate={{ scale: [1, 2.5, 1], opacity: [0.5, 0, 0.5] }}
@@ -109,15 +96,7 @@ export default function Hero() {
                         </div>
 
                         <motion.div
-                            style={{
-                                textTransform: 'uppercase',
-                                letterSpacing: '5px',
-                                fontSize: '1.15rem',
-                                color: 'var(--accent)',
-                                fontWeight: 700,
-                                fontFamily: 'var(--font-serif)',
-                                textShadow: '0 2px 10px rgba(0,0,0,0.3)'
-                            }}
+                            className="hero-badge-text"
                             variants={typewriterVariants}
                             initial="hidden"
                             animate="visible"
@@ -161,16 +140,16 @@ export default function Hero() {
                         <a
                             href="/agriwork-catalog.pdf"
                             download
-                            className="btn btn-primary"
-                            style={{ padding: '1.25rem 3rem', borderRadius: '50px', textDecoration: 'none', display: 'inline-block' }}
+                            className="btn btn-primary hero-download-btn"
+                            style={{ borderRadius: '50px', textDecoration: 'none', display: 'inline-block' }}
                         >
                             Download Catalog
                         </a>
-                        <button className="btn btn-accent" style={{ padding: '1.25rem 3rem', borderRadius: '50px' }}>Our History</button>
                     </motion.div>
                 </motion.div>
             </div>
 
+            {/* Slide indicators */}
             <div style={{
                 position: 'absolute',
                 bottom: '50px',
@@ -193,6 +172,62 @@ export default function Hero() {
                     />
                 ))}
             </div>
+
+            {/* Responsive styles */}
+            <style>{`
+                .hero-badge {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 12px;
+                    padding: 0.7rem 1.8rem;
+                    background: rgba(255, 255, 255, 0.03);
+                    backdrop-filter: blur(12px);
+                    border-radius: 100px;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
+                    margin-bottom: 2.5rem;
+                    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+                    max-width: 90vw;
+                    overflow: hidden;
+                }
+                .hero-badge-text {
+                    text-transform: uppercase;
+                    letter-spacing: clamp(2px, 0.8vw, 5px);
+                    font-size: clamp(0.55rem, 2vw, 1rem);
+                    color: var(--accent);
+                    font-weight: 700;
+                    font-family: var(--font-serif);
+                    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .hero-download-btn {
+                    padding: 1.25rem 3rem;
+                    font-size: 1rem;
+                }
+                @media (max-width: 768px) {
+                    .hero-badge {
+                        padding: 0.6rem 1.2rem;
+                        gap: 8px;
+                        margin-bottom: 1.8rem;
+                    }
+                    .hero-download-btn {
+                        padding: 0.85rem 1.75rem;
+                        font-size: 0.875rem;
+                    }
+                }
+                @media (max-width: 480px) {
+                    .hero-badge {
+                        padding: 0.5rem 1rem;
+                        gap: 6px;
+                        margin-bottom: 1.5rem;
+                    }
+                    .hero-download-btn {
+                        padding: 0.75rem 1.4rem;
+                        font-size: 0.8rem;
+                    }
+                }
+            `}</style>
         </section>
     );
 }

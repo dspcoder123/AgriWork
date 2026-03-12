@@ -5,20 +5,23 @@ import { Target, Eye } from 'lucide-react';
 
 export default function MissionVision() {
     return (
-        <section style={{ padding: '150px 10%', background: 'var(--bg-sand)', position: 'relative' }}>
+        <section className="mv-section" style={{ padding: '150px 10%', background: 'var(--bg-sand)', position: 'relative' }}>
             <div style={{ textAlign: 'center', marginBottom: '6rem' }}>
                 <span style={{ fontSize: '0.85rem', color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '4px' }}>Our Direction</span>
-                <h2 style={{ fontSize: '3.5rem', marginTop: '1rem', color: 'var(--text-charcoal)', fontFamily: 'var(--font-serif)' }}>Mission & Vision</h2>
+                <h2 className="mv-heading" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', marginTop: '1rem', color: 'var(--text-charcoal)', fontFamily: 'var(--font-serif)' }}>Mission & Vision</h2>
                 <div className="title-underline" style={{ margin: '1.5rem auto' }} />
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '4rem', maxWidth: '1400px', margin: '0 auto' }}>
+            <div className="mv-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '4rem', maxWidth: '1400px', margin: '0 auto' }}>
+
+                {/* Mission Card */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
                     whileHover={{ y: -10 }}
+                    className="mv-card"
                     style={{
                         background: '#fff',
                         padding: '5rem 4rem',
@@ -41,22 +44,25 @@ export default function MissionVision() {
                         alignItems: 'center',
                         justifyContent: 'center',
                         color: 'var(--primary)',
-                        marginBottom: '3rem'
+                        marginBottom: '3rem',
+                        flexShrink: 0
                     }}>
                         <Target size={45} strokeWidth={1.5} />
                     </div>
-                    <h3 style={{ fontSize: '2rem', marginBottom: '1.5rem', fontFamily: 'var(--font-serif)', color: 'var(--primary)' }}>Our Aim</h3>
-                    <p style={{ fontSize: '1.1rem', color: 'var(--text-light)', lineHeight: 1.8, opacity: 0.8 }}>
+                    <h3 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', marginBottom: '1.5rem', fontFamily: 'var(--font-serif)', color: 'var(--primary)' }}>Our Aim</h3>
+                    <p style={{ fontSize: 'clamp(0.95rem, 2vw, 1.1rem)', color: 'var(--text-light)', lineHeight: 1.8, opacity: 0.8 }}>
                         To empower every farmer with globally-recognized hybrid seeds at reasonable prices, fulfilling our commitment to excellence and food security.
                     </p>
                 </motion.div>
 
+                {/* Vision Card */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     viewport={{ once: true }}
                     whileHover={{ y: -10 }}
+                    className="mv-card"
                     style={{
                         background: 'var(--primary)',
                         padding: '5rem 4rem',
@@ -80,17 +86,67 @@ export default function MissionVision() {
                         justifyContent: 'center',
                         color: 'var(--accent)',
                         marginBottom: '3rem',
-                        border: '1px solid rgba(255,255,255,0.1)'
+                        border: '1px solid rgba(255,255,255,0.1)',
+                        flexShrink: 0
                     }}>
                         <Eye size={45} strokeWidth={1.5} />
                     </div>
-                    <h3 style={{ fontSize: '2rem', marginBottom: '1.5rem', fontFamily: 'var(--font-serif)', color: '#fff' }}>Our Vision</h3>
-                    <p style={{ fontSize: '1.15rem', opacity: 0.9, lineHeight: 1.8 }}>
-                        “Spreading Prosperity Everywhere.” <br />
+                    <h3 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', marginBottom: '1.5rem', fontFamily: 'var(--font-serif)', color: '#fff' }}>Our Vision</h3>
+                    <p style={{ fontSize: 'clamp(0.95rem, 2vw, 1.15rem)', opacity: 0.9, lineHeight: 1.8 }}>
+                        "Spreading Prosperity Everywhere." <br />
                         We strive to lead the seed industry by developing innovations that define quality, performance, and ultimate farmer profitability.
                     </p>
                 </motion.div>
             </div>
+
+            <style>{`
+                /* ── TABLET (≤1024px) ── */
+                @media (max-width: 1024px) {
+                    .mv-section {
+                        padding: 100px 6% !important;
+                    }
+                    .mv-grid {
+                        grid-template-columns: 1fr !important;
+                        gap: 2.5rem !important;
+                    }
+                    .mv-card {
+                        padding: 4rem 3rem !important;
+                    }
+                }
+
+                /* ── MOBILE (≤768px) ── */
+                @media (max-width: 768px) {
+                    .mv-section {
+                        padding: 70px 5% !important;
+                    }
+                    .mv-section > div:first-child {
+                        margin-bottom: 3.5rem !important;
+                    }
+                    .mv-card {
+                        padding: 3rem 2rem !important;
+                        border-radius: 20px !important;
+                    }
+                    .mv-card > div:first-child {
+                        width: 80px !important;
+                        height: 80px !important;
+                        margin-bottom: 2rem !important;
+                    }
+                }
+
+                /* ── SMALL MOBILE (≤480px) ── */
+                @media (max-width: 480px) {
+                    .mv-section {
+                        padding: 50px 4% !important;
+                    }
+                    .mv-card {
+                        padding: 2.5rem 1.5rem !important;
+                        border-radius: 16px !important;
+                    }
+                    .mv-card p br {
+                        display: none;
+                    }
+                }
+            `}</style>
         </section>
     );
 }
