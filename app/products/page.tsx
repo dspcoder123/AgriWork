@@ -30,7 +30,7 @@ export default function ProductsPage() {
                         className="btn btn-primary"
                         style={{ padding: '1.25rem 3rem', borderRadius: '100px', textDecoration: 'none', display: 'inline-block' }}
                     >
-                        Download Full 2024 Catalog
+                        Download Full Catalog
                     </a>
                 </div>
             </section>

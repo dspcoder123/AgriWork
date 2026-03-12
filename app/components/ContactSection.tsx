@@ -196,7 +196,7 @@ export default function ContactSection() {
                             {
                                 icon: <Phone size={28} />,
                                 title: 'Call Us',
-                                content: '+91 97072 03337',
+                                content: '+91 7702203337',
                                 highlight: true
                             },
                             {
