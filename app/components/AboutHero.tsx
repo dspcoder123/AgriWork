@@ -56,14 +56,15 @@ export default function AboutHero() {
                     borderRadius: '100px',
                     backdropFilter: 'blur(10px)',
                     border: '1px solid rgba(212, 175, 55, 0.2)',
-                    marginBottom: '2rem'
+                    marginBottom: '2rem',
+
                 }}>
                     <span style={{
                         textTransform: 'uppercase',
                         letterSpacing: '3px',
                         fontSize: '0.8rem',
                         color: 'var(--accent)',
-                        fontWeight: 700
+                        fontWeight: 700,
                     }}>
                         Established 2018
                     </span>

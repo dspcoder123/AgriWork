@@ -62,14 +62,16 @@ export default function ContactHero() {
                         background: 'linear-gradient(90deg, var(--accent), #f3c623)',
                         borderRadius: '100px',
                         marginBottom: '2.5rem',
-                        boxShadow: '0 10px 30px rgba(212, 175, 55, 0.3)'
+                        boxShadow: '0 10px 30px rgba(212, 175, 55, 0.3)',
+                        marginTop: '3rem',
                     }}>
                     <span style={{
                         textTransform: 'uppercase',
                         letterSpacing: '5px',
                         fontSize: '0.9rem',
                         color: 'var(--primary)',
-                        fontWeight: 900
+                        fontWeight: 900,
+
                     }}>
                         Global Solutions
                     </span>

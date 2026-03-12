@@ -22,8 +22,12 @@ export default function Navbar() {
     return (
         <nav className={clsx('navbar', scrolled && 'scrolled')}>
             <div className="logo">
-                <Link href="/" style={{ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'var(--font-serif)', color: scrolled ? 'var(--primary)' : '#fff' }}>
-                    AGRIWORK SEEDS
+                <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
+                    <img
+                        src="/logo.png"
+                        alt="Agriwork Seeds Logo"
+                        style={{ height: scrolled ? '60px' : '80px', transition: 'all 0.3s ease', objectFit: 'contain' }}
+                    />
                 </Link>
             </div>
 

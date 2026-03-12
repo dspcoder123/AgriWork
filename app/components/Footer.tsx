@@ -35,15 +35,13 @@ export default function Footer() {
 
                     {/* Brand Identity Column */}
                     <div style={{ gridColumn: 'span 1.5' }}>
-                        <h2 style={{
-                            fontSize: '2.5rem',
-                            fontFamily: 'var(--font-serif)',
-                            color: '#fff',
-                            marginBottom: '1.5rem',
-                            letterSpacing: '-1px'
-                        }}>
-                            AGRIWORK<span style={{ color: 'var(--accent)' }}>.</span>
-                        </h2>
+                        <Link href="/">
+                            <img
+                                src="/logo.png"
+                                alt="Agriwork Logo"
+                                style={{ height: '100px', marginBottom: '1.5rem', filter: 'brightness(0) invert(1)' }}
+                            />
+                        </Link>
                         <p style={{
                             color: 'rgba(255,255,255,0.6)',
                             fontSize: '1.05rem',
