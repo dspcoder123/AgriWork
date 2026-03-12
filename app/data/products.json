@@ -1,0 +1,1328 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Pearl Millet",
+      "code": "AWPMH-93",
+      "name": "F1 HYBRID PEARL MILLET",
+      "image": "https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "78-80 days",
+        "plant_height": "180-200cm",
+        "tillers": "7-8",
+        "earhead_shape": "Cylindrical",
+        "compactness": "Highly Compact",
+        "grain": "Grey, Bold",
+        "remarks": "Downy & heat tolerant hybrid"
+      }
+    },
+    {
+      "id": 2,
+      "category": "Maize",
+      "code": "A3W5",
+      "name": "F1 HYBRID MAIZE",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "105-110 days",
+        "plant_height": "220-230cm",
+        "cob_length": "22-24cm",
+        "grains_per_row": "48-50",
+        "remarks": "Tolerant to major diseases. Drought tolerance."
+      }
+    },
+    {
+      "id": 3,
+      "category": "Maize",
+      "code": "A3W6",
+      "name": "F1 HYBRID MAIZE",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "105-110 days",
+        "plant_height": "220-230cm",
+        "cob_length": "22-24cm",
+        "remarks": "Very good adaptability & stress tolerance."
+      }
+    },
+    {
+      "id": 4,
+      "category": "Ash Gourd",
+      "code": "AGRAPETA-101",
+      "name": "F1 HYBRID ASH GOURD",
+      "image": "https://images.unsplash.com/photo-1549479374-67d710899131?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "days_from_sowing": "70-75",
+        "fruit_shape": "Square",
+        "remarks": "Productive hybrid, good for transport and storage."
+      }
+    },
+    {
+      "id": 5,
+      "category": "Ash Gourd",
+      "code": "AGRAPETA-102",
+      "name": "F1 HYBRID ASH GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "days_from_sowing": "75-80",
+        "fruit_shape": "Oblong to long",
+        "remarks": "High yielding big long size hybrid."
+      }
+    },
+    {
+      "id": 6,
+      "category": "Asparagus",
+      "code": "ASPRA",
+      "name": "F1 HYBRID ASPARAGUS",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "yield": "High",
+        "flavor": "Fine",
+        "remarks": "Best for high yield andSucculent spears."
+      }
+    },
+    {
+      "id": 7,
+      "category": "Mustard",
+      "code": "SURYA-BOLD",
+      "name": "F1 HYBRID MUSTARD",
+      "image": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "78-80 days",
+        "plant_height": "180-200cm",
+        "tillers": "7-8",
+        "remarks": "Downy & heat tolerant hybrid"
+      }
+    },
+    {
+      "id": 8,
+      "category": "Mustard",
+      "code": "SURYA-GOLD",
+      "name": "F1 HYBRID MUSTARD",
+      "image": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "78-80 days",
+        "plant_height": "180-200cm",
+        "tillers": "7-8",
+        "remarks": "Downy & heat tolerant hybrid"
+      }
+    },
+    {
+      "id": 9,
+      "category": "Papaya",
+      "code": "AWPH-786",
+      "name": "F1 HYBRID PAPAYA",
+      "image": "https://images.unsplash.com/photo-1517431115861-0ae7e4a8cca5?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "height": "60-80 cm",
+        "fruit_weight": "1.5-2 kg",
+        "yield": "30+ fruits",
+        "remarks": "Productive & tolerant to papaya ring spot virus."
+      }
+    },
+    {
+      "id": 10,
+      "category": "Beetroot",
+      "code": "ABH-201",
+      "name": "F1 HYBRID BEETROOT",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "first_picking": "50-55 days",
+        "weight": "100-150gm",
+        "remarks": "Stands 30 days without cracking or losing color."
+      }
+    },
+    {
+      "id": 11,
+      "category": "Beetroot",
+      "code": "ABH-206",
+      "name": "F1 HYBRID BEETROOT",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "first_picking": "50-55 days",
+        "weight": "150-200gm",
+        "remarks": "Crispy and tasty along with good keeping quality."
+      }
+    },
+    {
+      "id": 12,
+      "category": "Beetroot",
+      "code": "ABH-209",
+      "name": "F1 HYBRID BEETROOT",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "first_picking": "50-55 days",
+        "weight": "100-150gm",
+        "remarks": "Good stand after maturity without cracking."
+      }
+    },
+    {
+      "id": 13,
+      "category": "Papaya",
+      "code": "AWPH-788",
+      "name": "F1 HYBRID PAPAYA",
+      "image": "https://images.unsplash.com/photo-1517431115861-0ae7e4a8cca5?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "shape": "Round",
+        "weight": "1.5-2 kg",
+        "remarks": "Early, Vigorous, Productive."
+      }
+    },
+    {
+      "id": 14,
+      "category": "Marigold",
+      "code": "KUSAM-20",
+      "name": "F1 HYBRID MARIGOLD",
+      "image": "https://images.unsplash.com/photo-1589139891307-2856f6ba33b3?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Yellow",
+        "height": "30-35cm",
+        "remarks": "High yield, attractive color."
+      }
+    },
+    {
+      "id": 15,
+      "category": "Marigold",
+      "code": "KUSAM-30",
+      "name": "F1 HYBRID MARIGOLD",
+      "image": "https://images.unsplash.com/photo-1589139891307-2856f6ba33b3?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Orange",
+        "compactness": "Compact flower",
+        "remarks": "Suitable for Kharif."
+      }
+    },
+    {
+      "id": 16,
+      "category": "Eggplant",
+      "code": "AWEH-306",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "60-80gm",
+        "shape": "Oval round",
+        "color": "Dark purple white stripe",
+        "remarks": "Heavy clusters bearing."
+      }
+    },
+    {
+      "id": 17,
+      "category": "Eggplant",
+      "code": "AWEH-302",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "80-140gm",
+        "color": "Dark purple white stripe",
+        "remarks": "Single bearing fruit types."
+      }
+    },
+    {
+      "id": 18,
+      "category": "Eggplant",
+      "code": "AWEH-309",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "first_picking": "55-60 days",
+        "shape": "Ovate",
+        "color": "Green with purple stripes"
+      }
+    },
+    {
+      "id": 19,
+      "category": "Eggplant",
+      "code": "AWEH-310",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "150-300gm",
+        "shape": "Oval round",
+        "color": "Black",
+        "remarks": "High yielding, shining fruit."
+      }
+    },
+    {
+      "id": 20,
+      "category": "Eggplant",
+      "code": "AWEH-316",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "80-120gm",
+        "shape": "Long",
+        "color": "Dark Purple",
+        "remarks": "Bacterial wilt tolerance."
+      }
+    },
+    {
+      "id": 21,
+      "category": "Eggplant",
+      "code": "AWEH-319",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "80-120gm",
+        "shape": "Long",
+        "color": "Dark Purple",
+        "remarks": "Heavy clusters bearing."
+      }
+    },
+    {
+      "id": 22,
+      "category": "Paddy Seed",
+      "code": "BIRSHA-120",
+      "name": "F1 HYBRID PADDY SEED",
+      "image": "https://images.unsplash.com/photo-1536630596251-b01c62539264?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "height": "85-90cm",
+        "type": "Semi Dwarf",
+        "grain": "Long Slender",
+        "maturity": "130-135 days"
+      }
+    },
+    {
+      "id": 23,
+      "category": "Paddy Seed",
+      "code": "SHREE BHOGE",
+      "name": "IMPROVED PADDY SEED",
+      "image": "https://images.unsplash.com/photo-1536630596251-b01c62539264?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "height": "90-95cm",
+        "type": "Medium Tall",
+        "grain": "Long Slender",
+        "maturity": "120-125 days"
+      }
+    },
+    {
+      "id": 24,
+      "category": "Paddy Seed",
+      "code": "ANNAPURNA",
+      "name": "IMPROVED PADDY SEED",
+      "image": "https://images.unsplash.com/photo-1536630596251-b01c62539264?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "height": "90-95cm",
+        "type": "Medium Semi Tall",
+        "grain": "Long Slender",
+        "maturity": "120-125 days"
+      }
+    },
+    {
+      "id": 25,
+      "category": "Eggplant",
+      "code": "AWEH-322",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "shape": "Oval",
+        "color": "Green with white strips",
+        "remarks": "Bacterial wilt tolerance."
+      }
+    },
+    {
+      "id": 26,
+      "category": "Eggplant",
+      "code": "AWEH-329",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "80-100gm",
+        "shape": "Bi-ovate",
+        "color": "Bright Green",
+        "remarks": "High yielding shining fruit."
+      }
+    },
+    {
+      "id": 27,
+      "category": "Eggplant",
+      "code": "AWEH-339",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "shape": "Long",
+        "color": "Shiny green with creamy steaks",
+        "remarks": "Good field standing ability."
+      }
+    },
+    {
+      "id": 28,
+      "category": "Paddy Seed",
+      "code": "SHUBHANGI",
+      "name": "IMPROVED PADDY SEED",
+      "image": "https://images.unsplash.com/photo-1536630596251-b01c62539264?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "height": "90-95cm",
+        "leaf_color": "Pink",
+        "grain": "Short Grain Fine",
+        "maturity": "130-135 days"
+      }
+    },
+    {
+      "id": 29,
+      "category": "Pigeon Pea",
+      "code": "HANUMAT",
+      "name": "PIGEON PEA",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "height": "200-210cm",
+        "branching": "Heavy",
+        "duration": "140-160 days",
+        "remarks": "Excellent dal quality."
+      }
+    },
+    {
+      "id": 30,
+      "category": "Green Gram (Moong)",
+      "code": "VIRAT",
+      "name": "GREEN GRAM (MOONG)",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "60-65 days",
+        "growth": "Determinate",
+        "grains": "11-12 per pod",
+        "remarks": "Tolerant to pod borer."
+      }
+    },
+    {
+      "id": 31,
+      "category": "Bitter Gourd",
+      "code": "ANUSHRI",
+      "name": "F1 HYBRID BITTER GOURD",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "55-65 days",
+        "length": "20-22cm",
+        "color": "Dark Green",
+        "remarks": "Straight with good spines."
+      }
+    },
+    {
+      "id": 32,
+      "category": "Bitter Gourd",
+      "code": "RUSTAM",
+      "name": "F1 HYBRID BITTER GOURD",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "12-14cm",
+        "shape": "Medium Long",
+        "color": "Attractive white",
+        "remarks": "Strong, high yielding."
+      }
+    },
+    {
+      "id": 33,
+      "category": "Bitter Gourd",
+      "code": "PALAK",
+      "name": "F1 HYBRID BITTER GOURD",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "48-51 days",
+        "length": "20-25cm",
+        "color": "Shiny Green",
+        "remarks": "Long shiny green attractive shape."
+      }
+    },
+    {
+      "id": 34,
+      "category": "Black Gram (Urad)",
+      "code": "NALINI",
+      "name": "BLACK GRAM (URAD)",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "70-75 days",
+        "grain": "Black bold",
+        "remarks": "Synchronous maturity, YMV tolerance."
+      }
+    },
+    {
+      "id": 35,
+      "category": "Wheat",
+      "code": "KARTHIKA-303",
+      "name": "IMPROVED WHEAT",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "115-120 days",
+        "height": "90-95cm",
+        "tillers": "12-15",
+        "remarks": "Excellent chapati quality, aroma and taste."
+      }
+    },
+    {
+      "id": 36,
+      "category": "Wheat",
+      "code": "KONARK-35",
+      "name": "IMPROVED WHEAT",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "duration": "115-120 days",
+        "height": "90-95cm",
+        "tillers": "12-15",
+        "remarks": "Highly tolerant to rust disease."
+      }
+    },
+    {
+      "id": 37,
+      "category": "Muskmelon",
+      "code": "AWMH-24",
+      "name": "F1 HYBRID MUSKMELON",
+      "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "0.5-1kg",
+        "maturity": "65-70 days",
+        "color": "Light Green strips",
+        "TSS": "12.5-13.5%",
+        "remarks": "High sugar content."
+      }
+    },
+    {
+      "id": 38,
+      "category": "Muskmelon",
+      "code": "KARAN",
+      "name": "F1 HYBRID MUSKMELON",
+      "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1.0-1.25kg",
+        "shape": "Round",
+        "TSS": "12.5-13.5%",
+        "remarks": "Uniform netting, sweet flesh."
+      }
+    },
+    {
+      "id": 39,
+      "category": "Muskmelon",
+      "code": "SUNSHINE",
+      "name": "F1 HYBRID MUSKMELON",
+      "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "0.8-1.2kg",
+        "maturity": "65-70 days",
+        "color": "Yellow smooth skin",
+        "remarks": "Excellent transportability."
+      }
+    },
+    {
+      "id": 40,
+      "category": "Bitter Gourd",
+      "code": "DIP-1313",
+      "name": "F1 HYBRID BITTER GOURD",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "45-50 days",
+        "length": "10-12cm",
+        "color": "Shining green thick spiny"
+      }
+    },
+    {
+      "id": 41,
+      "category": "Beans",
+      "code": "AWB-11",
+      "name": "IMPROVED PENCIL BEENS",
+      "image": "https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "55-60 days",
+        "length": "13-15cm",
+        "type": "Bunching",
+        "remarks": "Attractive light green color."
+      }
+    },
+    {
+      "id": 42,
+      "category": "Beans",
+      "code": "AWB-12",
+      "name": "IMPROVED BEENS",
+      "image": "https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "53-60 days",
+        "length": "12-15cm",
+        "color": "Attractive green"
+      }
+    },
+    {
+      "id": 43,
+      "category": "Knol Khol",
+      "code": "MANALI",
+      "name": "KNOL KHOL",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "55-60 days",
+        "weight": "100-150gm",
+        "remarks": "Without cracking and without fibre development."
+      }
+    },
+    {
+      "id": 44,
+      "category": "Squash",
+      "code": "AWSO-101",
+      "name": "F1 HYBRID SQUASH",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "30-40 days",
+        "color": "Dark Green",
+        "remarks": "Open erect plant, easy picking."
+      }
+    },
+    {
+      "id": 45,
+      "category": "Squash",
+      "code": "AWSO-102",
+      "name": "F1 HYBRID SQUASH",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "30-40 days",
+        "color": "Green",
+        "remarks": "Early maturity, high yielder."
+      }
+    },
+    {
+      "id": 46,
+      "category": "Bottle Gourd",
+      "code": "VISHNU",
+      "name": "F1 HYBRID BOTTLE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "55-60 days",
+        "length": "1.5-2.0ft",
+        "color": "Shiny Green",
+        "remarks": "Attractive, straight uniform hybrid."
+      }
+    },
+    {
+      "id": 47,
+      "category": "Bottle Gourd",
+      "code": "VENU",
+      "name": "F1 HYBRID BOTTLE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1-1.5kg",
+        "shape": "Bottle type Round",
+        "remarks": "Suitable to harvest tender fruit."
+      }
+    },
+    {
+      "id": 48,
+      "category": "Bottle Gourd",
+      "code": "TRUMP",
+      "name": "F1 HYBRID BOTTLE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1.5-2.0kg",
+        "picking": "55-60 days",
+        "remarks": "High yielding vigorous creeper."
+      }
+    },
+    {
+      "id": 49,
+      "category": "Broccoli",
+      "code": "BRONO",
+      "name": "BROCCOLI",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "65-70 days",
+        "weight": "800-1000gm",
+        "remarks": "Very compact, fine beads."
+      }
+    },
+    {
+      "id": 50,
+      "category": "Tinda",
+      "code": "SAMARKING",
+      "name": "F1 HYBRID TINDA",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "40-45 days",
+        "weight": "80-100gm",
+        "color": "Green",
+        "remarks": "High yielding vigorous hybrid."
+      }
+    },
+    {
+      "id": 51,
+      "category": "Paddy Seed",
+      "code": "BIRSHA-110",
+      "name": "F1 HYBRID PADDY SEED",
+      "image": "https://images.unsplash.com/photo-1536630596251-b01c62539264?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "100-110 days",
+        "height": "80-85cm",
+        "grain": "Long Slender"
+      }
+    },
+    {
+      "id": 52,
+      "category": "Carrot",
+      "code": "AWCH-902",
+      "name": "F1 HYBRID CARROT",
+      "image": "https://images.unsplash.com/photo-1551024709-3f24097486e9?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "110 days",
+        "shape": "Cylindrical",
+        "color": "Deep Orange",
+        "remarks": "Uniform, very high yielding."
+      }
+    },
+    {
+      "id": 53,
+      "category": "Carrot",
+      "code": "AWCH-903",
+      "name": "F1 HYBRID CARROT",
+      "image": "https://images.unsplash.com/photo-1551024709-3f24097486e9?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "65-70 days",
+        "shape": "Conical",
+        "color": "Thick Orange",
+        "remarks": "Soft edible core."
+      }
+    },
+    {
+      "id": 54,
+      "category": "Carrot",
+      "code": "AWCH-906",
+      "name": "F1 HYBRID CARROT",
+      "image": "https://images.unsplash.com/photo-1551024709-3f24097486e9?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "100 days",
+        "shape": "Conical",
+        "remarks": "Long carrots, good taste."
+      }
+    },
+    {
+      "id": 55,
+      "category": "Hot Pepper",
+      "code": "YAME",
+      "name": "F1 HYBRID HOT PEPPER",
+      "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "16cm",
+        "diameter": "1.6cm",
+        "pungency": "Highly Pungent",
+        "remarks": "Good heat tolerance."
+      }
+    },
+    {
+      "id": 56,
+      "category": "Hot Pepper",
+      "code": "TEJASRI",
+      "name": "F1 HYBRID HOT PEPPER",
+      "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "16cm",
+        "picking": "60 days",
+        "pungency": "Pungent",
+        "remarks": "Recommended for dry chilli."
+      }
+    },
+    {
+      "id": 57,
+      "category": "Hot Pepper",
+      "code": "ACH-531",
+      "name": "F1 HYBRID HOT PEPPER",
+      "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "14-16cm",
+        "picking": "55-60 days",
+        "remarks": "Suitable for fresh market."
+      }
+    },
+    {
+      "id": 58,
+      "category": "Sweet Corn",
+      "code": "MADHURAS-509",
+      "name": "F1 HYBRID SWEET CORN",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "78-85 days",
+        "color": "Yellow",
+        "ear_length": "8.5 inch",
+        "remarks": "Very high yielding winter hybrid."
+      }
+    },
+    {
+      "id": 59,
+      "category": "Tomato",
+      "code": "MEENU",
+      "name": "F1 HYBRID TOMATO",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f02ac6d31?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "90gm",
+        "type": "Determinate",
+        "season": "Round the year",
+        "remarks": "Wide adaptability."
+      }
+    },
+    {
+      "id": 60,
+      "category": "Tomato",
+      "code": "MRUNAL",
+      "name": "F1 HYBRID TOMATO",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f02ac6d31?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "100-120gm",
+        "shape": "Flat round green shoulder",
+        "remarks": "Local type hybrid."
+      }
+    },
+    {
+      "id": 61,
+      "category": "Hot Pepper",
+      "code": "TAPTI GOLD",
+      "name": "F1 HYBRID HOT PEPPER",
+      "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "16cm",
+        "skin": "Thick",
+        "remarks": "Recommended for dry chilli."
+      }
+    },
+    {
+      "id": 62,
+      "category": "Capsicum",
+      "code": "SUPER WONDER",
+      "name": "IMPORTED CAPSICUM",
+      "image": "https://images.unsplash.com/photo-1526346695784-f2f4531f1c39?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "80-100gm",
+        "shape": "Green blocky",
+        "remarks": "High yielding hybrid."
+      }
+    },
+    {
+      "id": 63,
+      "category": "Capsicum",
+      "code": "AWSH-401",
+      "name": "F1 HYBRID CAPSICUM",
+      "image": "https://images.unsplash.com/photo-1526346695784-f2f4531f1c39?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "texture": "Crispy",
+        "remarks": "Free from bitter principles."
+      }
+    },
+    {
+      "id": 64,
+      "category": "Tomato",
+      "code": "MEERA",
+      "name": "F1 HYBRID TOMATO",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f02ac6d31?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "type": "Indeterminate",
+        "skin": "Very thick",
+        "remarks": "Suitable for long transport."
+      }
+    },
+    {
+      "id": 65,
+      "category": "Tomato",
+      "code": "MITHALI",
+      "name": "F1 HYBRID TOMATO",
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f02ac6d31?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "100-150gm",
+        "maturity": "70-75 days",
+        "remarks": "Good skin quality."
+      }
+    },
+    {
+      "id": 66,
+      "category": "Watermelon",
+      "code": "KARTHIK",
+      "name": "F1 HYBRID WATERMELON",
+      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "2.5-3kg",
+        "maturity": "60-70 days",
+        "remarks": "Black skin bright red flesh."
+      }
+    },
+    {
+      "id": 67,
+      "category": "Cluster Bean",
+      "code": "RANI",
+      "name": "IMPROVED CLUSTER BEAN",
+      "image": "https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "35-40 days",
+        "length": "10-11cm",
+        "yield": "High"
+      }
+    },
+    {
+      "id": 68,
+      "category": "Cucumber",
+      "code": "RAGHURAJ",
+      "name": "F1 HYBRID CUCUMBER",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "26-28cm",
+        "weight": "200-220gm",
+        "remarks": "Continuous hybrid, prolific."
+      }
+    },
+    {
+      "id": 69,
+      "category": "Cucumber",
+      "code": "SURABHI",
+      "name": "F1 HYBRID CUCUMBER",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "18-20cm",
+        "weight": "180-200gm",
+        "remarks": "Early hybrid, crispy texture."
+      }
+    },
+    {
+      "id": 70,
+      "category": "Watermelon",
+      "code": "GOALDE",
+      "name": "F1 HYBRID WATERMELON",
+      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "6-8kg",
+        "maturity": "65 days"
+      }
+    },
+    {
+      "id": 71,
+      "category": "Watermelon",
+      "code": "AW-757",
+      "name": "F1 HYBRID WATERMELON",
+      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "12-15kg",
+        "maturity": "65-70 days",
+        "remarks": "Sweet and crispy flesh."
+      }
+    },
+    {
+      "id": 72,
+      "category": "Muskmelon",
+      "code": "NOVA GOLD",
+      "name": "F1 HYBRID MUSKMELON",
+      "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1.5-2kg",
+        "maturity": "70-75 days",
+        "remarks": "Big fruits, orange flesh."
+      }
+    },
+    {
+      "id": 73,
+      "category": "Radish",
+      "code": "AWRH-603",
+      "name": "F1 HYBRID RADISH",
+      "image": "https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "38-40cm",
+        "picking": "40-45 days",
+        "remarks": "Pure white, mild pungency."
+      }
+    },
+    {
+      "id": 74,
+      "category": "Radish",
+      "code": "AWRH-605",
+      "name": "F1 HYBRID RADISH",
+      "image": "https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Deep pink",
+        "flesh": "White",
+        "remarks": "Hot and unusually sweet."
+      }
+    },
+    {
+      "id": 75,
+      "category": "Radish",
+      "code": "AWRH-607",
+      "name": "F1 HYBRID RADISH",
+      "image": "https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "shape": "Round",
+        "color": "Pink",
+        "maturity": "30 days"
+      }
+    },
+    {
+      "id": 76,
+      "category": "Cabbage",
+      "code": "AWCB-601",
+      "name": "F1 HYBRID CABBAGE",
+      "image": "https://images.unsplash.com/photo-1592484965187-30dc48d2740a?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1.5-2.5kg",
+        "maturity": "70-75 days",
+        "remarks": "Specially for summer/rainy."
+      }
+    },
+    {
+      "id": 77,
+      "category": "Cabbage",
+      "code": "AWCB-602",
+      "name": "F1 HYBRID CABBAGE",
+      "image": "https://images.unsplash.com/photo-1592484965187-30dc48d2740a?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1.2kg",
+        "maturity": "60-65 days",
+        "remarks": "Very durable hybrid."
+      }
+    },
+    {
+      "id": 78,
+      "category": "Cauliflower",
+      "code": "AWCF-301",
+      "name": "F1 HYBRID CAULIFLOWER",
+      "image": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ec3?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "1.5kg",
+        "maturity": "90 days",
+        "remarks": "Non hairy white curd."
+      }
+    },
+    {
+      "id": 79,
+      "category": "Ridge Gourd",
+      "code": "REVATI",
+      "name": "F1 HYBRID RIDGE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "45-50cm",
+        "weight": "200-250gm",
+        "remarks": "High yielding vigorous hybrid."
+      }
+    },
+    {
+      "id": 80,
+      "category": "Sponge Gourd",
+      "code": "ANKIT-30",
+      "name": "F1 HYBRID SPONGE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "20-25cm",
+        "weight": "100-120gm",
+        "remarks": "Dark green cylindrical."
+      }
+    },
+    {
+      "id": 81,
+      "category": "Sponge Gourd",
+      "code": "SUBRHA-35",
+      "name": "F1 HYBRID SPONGE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Pale green",
+        "remarks": "High yield white seed hybrid."
+      }
+    },
+    {
+      "id": 82,
+      "category": "Cauliflower",
+      "code": "AWCF-302",
+      "name": "F1 HYBRID CAULIFLOWER",
+      "image": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ec3?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "0.6-1.0kg",
+        "maturity": "70-75 days"
+      }
+    },
+    {
+      "id": 83,
+      "category": "Coriander",
+      "code": "PARIMAL-707",
+      "name": "IMPROVED CORIANDER",
+      "image": "https://images.unsplash.com/photo-1598512752271-33f913a5af13?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "60-65 days",
+        "remarks": "Multiple cuttings, nice aroma."
+      }
+    },
+    {
+      "id": 84,
+      "category": "Coriander",
+      "code": "PARIMAL-709",
+      "name": "IMPORTED CORIANDER",
+      "image": "https://images.unsplash.com/photo-1598512752271-33f913a5af13?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "70 days",
+        "remarks": "Nice aroma, bolt tolerant."
+      }
+    },
+    {
+      "id": 85,
+      "category": "Snake Gourd",
+      "code": "AWSG-105",
+      "name": "F1 HYBRID SNAKE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "85-95cm",
+        "weight": "450-650gm",
+        "color": "White"
+      }
+    },
+    {
+      "id": 86,
+      "category": "Snake Gourd",
+      "code": "AWSG-101",
+      "name": "F1 HYBRID SNAKE GOURD",
+      "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "shape": "Thick Short",
+        "weight": "100-150gm"
+      }
+    },
+    {
+      "id": 87,
+      "category": "Sweet Corn",
+      "code": "MADHURAS-505",
+      "name": "F1 HYBRID SWEET CORN",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "harvest": "75-80 days",
+        "TSS": "15-16%",
+        "remarks": "Excellent tip filling."
+      }
+    },
+    {
+      "id": 88,
+      "category": "Cowpea",
+      "code": "AWCP-152",
+      "name": "IMPROVED COWPEA",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "Early",
+        "seed": "Bold white black eye"
+      }
+    },
+    {
+      "id": 89,
+      "category": "Cowpea",
+      "code": "AWCP-153",
+      "name": "IMPROVED COWPEA",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "yield": "75-100 q/ha",
+        "remarks": "Green pods before fibrous."
+      }
+    },
+    {
+      "id": 90,
+      "category": "Cowpea",
+      "code": "VARSHI",
+      "name": "IMPROVED COWPEA",
+      "image": "https://images.unsplash.com/photo-1515471209610-dae1c92d81ee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "pod_length": "45-50cm",
+        "duration": "90-95 days"
+      }
+    },
+    {
+      "id": 91,
+      "category": "Lobia",
+      "code": "AWCP-245",
+      "name": "IMPROVED LOBIA",
+      "image": "https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "55-60cm",
+        "flavor": "Sweet"
+      }
+    },
+    {
+      "id": 92,
+      "category": "Dolichos Bean",
+      "code": "VASANTA",
+      "name": "IMPROVED DOLICHOS BEAN",
+      "image": "https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "45-51 days",
+        "remarks": "Photo sensitive."
+      }
+    },
+    {
+      "id": 93,
+      "category": "Green Peas",
+      "code": "AWGP-10",
+      "name": "IMPROVED GREENPEAS",
+      "image": "https://images.unsplash.com/photo-1587334274328-64186a80aeee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "harvest": "80-85 days",
+        "seeds_per_pod": "9-11"
+      }
+    },
+    {
+      "id": 94,
+      "category": "Onion",
+      "code": "N-53",
+      "name": "ONION",
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "100-120 days",
+        "storage": "5-6 months",
+        "color": "Dark Red"
+      }
+    },
+    {
+      "id": 95,
+      "category": "Onion",
+      "code": "LIGHT RED",
+      "name": "ONION",
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "100-120gm",
+        "color": "Light Red"
+      }
+    },
+    {
+      "id": 96,
+      "category": "Onion",
+      "code": "PUNE FURSUNG",
+      "name": "ONION",
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "shape": "Globe",
+        "remarks": "High pungency, good for export."
+      }
+    },
+    {
+      "id": 97,
+      "category": "Green Peas",
+      "code": "AWGP-45",
+      "name": "IMPROVED GREENPEAS",
+      "image": "https://images.unsplash.com/photo-1587334274328-64186a80aeee?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "harvest": "65-80 days",
+        "disease": "Powdery Mildew tolerance"
+      }
+    },
+    {
+      "id": 98,
+      "category": "Okra",
+      "code": "SARA",
+      "name": "F1 HYBRID OKRA",
+      "image": "https://images.unsplash.com/photo-1565152504383-79ff578a4879?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "12-14cm",
+        "color": "Dark green",
+        "disease": "YVMV tolerance"
+      }
+    },
+    {
+      "id": 99,
+      "category": "Okra",
+      "code": "REVA",
+      "name": "F1 HYBRID OKRA",
+      "image": "https://images.unsplash.com/photo-1565152504383-79ff578a4879?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "45-47 days",
+        "remarks": "Very good average fruit weight."
+      }
+    },
+    {
+      "id": 100,
+      "category": "Onion",
+      "code": "BLACK DIAMOND",
+      "name": "IMPROVED ONION",
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Blackish Red",
+        "remarks": "Suitable for stock holding."
+      }
+    },
+    {
+      "id": 101,
+      "category": "Onion",
+      "code": "GULABI",
+      "name": "IMPROVED ONION",
+      "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Dark Red",
+        "yield": "Very high"
+      }
+    },
+    {
+      "id": 102,
+      "category": "Pumpkin",
+      "code": "AWPH-730",
+      "name": "F1 HYBRID PUMPKIN",
+      "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "12-15kg",
+        "shape": "Oblong",
+        "remarks": "Widely adaptable variety."
+      }
+    },
+    {
+      "id": 103,
+      "category": "Okra",
+      "code": "JINNUS",
+      "name": "F1 HYBRID OKRA",
+      "image": "https://images.unsplash.com/photo-1565152504383-79ff578a4879?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "45-51 days",
+        "shelf_life": "Good"
+      }
+    },
+    {
+      "id": 104,
+      "category": "Okra",
+      "code": "JANKI",
+      "name": "F1 HYBRID OKRA",
+      "image": "https://images.unsplash.com/photo-1565152504383-79ff578a4879?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "picking": "48-55 days",
+        "vigour": "Medium Tall"
+      }
+    },
+    {
+      "id": 105,
+      "category": "Okra",
+      "code": "RAZZO",
+      "name": "F1 HYBRID OKRA",
+      "image": "https://images.unsplash.com/photo-1565152504383-79ff578a4879?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "color": "Burgundy Red",
+        "disease": "TLCV tolerance"
+      }
+    },
+    {
+      "id": 106,
+      "category": "Pumpkin",
+      "code": "AWPH-735",
+      "name": "F1 HYBRID PUMPKIN",
+      "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "maturity": "80-90 days",
+        "flesh": "Orange",
+        "storage": "6-9 months"
+      }
+    },
+    {
+      "id": 107,
+      "category": "Pumpkin",
+      "code": "AWPH-750",
+      "name": "F1 HYBRID PUMPKIN",
+      "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "4-6kg",
+        "shape": "Smooth flat round"
+      }
+    },
+    {
+      "id": 108,
+      "category": "Radish",
+      "code": "PUSA CHETKI LONG",
+      "name": "IMPROVED RADISH",
+      "image": "https://images.unsplash.com/photo-1590868309235-ea34bed7bd7f?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "length": "35-40cm",
+        "picking": "50-55 days",
+        "remarks": "Suitable for August-Nov sowing."
+      }
+    },
+    {
+      "id": 109,
+      "category": "Eggplant",
+      "code": "AWEH-302",
+      "name": "F1 HYBRID EGGPLANT",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=1000",
+      "details": {
+        "weight": "80-140gm",
+        "color": "Dark purple white stripe",
+        "remarks": "Single bearing fruit types."
+      }
+    }
+  ]
+}
