@@ -17,7 +17,7 @@ export default function ContactSection() {
         const formData = new FormData(event.currentTarget);
         formData.append("access_key", "d5bf9dd0-1f44-499f-80a3-bf419c4a4ff2");
         formData.append("subject", "New Contact Inquiry from Agriworks Portfolio");
-        formData.append("to_email", "dspcoder123@gmail.com");
+        // formData.append("to_email", "dspcoder123@gmail.com");
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
